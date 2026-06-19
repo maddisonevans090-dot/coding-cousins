@@ -37,12 +37,11 @@ ul {
 a {
     text-decoration: none;
     color: rgb(255, 103, 237);
-    transition: color .2s;
+    transition: all .5s;
 }
 
 a:hover {
     color: #ff00bf;
-    font-size: large;
 }
 
 .dark {
