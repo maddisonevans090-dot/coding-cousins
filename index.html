@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
     <link rel="stylesheet" href="root.css">
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="root.js"></script>
 </head>
 <body>
     <div class="dark header">
         <h1 class="logo">Coding4Cousins</h1>
         <ul class="nav">
-            <li><a href="">Our Programs</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">How We Help</a></li>
+            <li><a href="programs/program.html">Our Programs</a></li>
+            <li><a href="about/about.html">About Us</a></li>
+            <li><a href="login/login.html">Login</a></li>
         </ul>
     </div>
     <section class="dark first">
@@ -63,7 +64,7 @@
                 <h3 class="cta-header">Come join our team!</h3>
                 <p class="cta-subtext">Sign up for our experience by clicking that button right over there!</p>
             </div>
-            <button>Sign up</button>
+            <button type="button" onclick="location.href='login/login.html'">Sign up</button>
         </div>
     </section>
     <div class="dark footer">
