@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/root.css">
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <div class="dark header">
+        <h1 class="logo" onclick="location.href='/index.html'">Coding4Cousins</h1>
+        <ul class="nav">
+            <li><a href="/programs/program.html">Our Programs</a></li>
+            <li><a href="/about/about.html">About Us</a></li>
+            <li><a href="/login/login.html">Sign Up</a></li>
+        </ul>
+    </div>
+    <section class="one">
+        <h1>Come Join our Product!</h1>
+    </section>
+    <section class="signin">
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Personal</legend>
+                    
+                    <div>
+                        <label for="name">Student name :</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    
+                    <div>
+                        <label for="age">How old are you? :</label>
+                        <input type="number" name="age" id="age">
+                        </div>
+
+                    <div>
+                        <label for="guardian">Parent/Guardian email :</label>
+                        <input type="email" name="guardian" id="guardian">
+                        </div>
     
+                    </fieldset>
+                    <fieldset>
+                        <legend>Experiential</legend>
+                        
+                        <div>
+                            <p>How experienced are you in coding?</p>
+                            <input type="radio" name="exp" id="noob">
+                            <label for="noob">Beginner</label>
+    
+                            <input type="radio" name="exp" id="eh">
+                            <label for="eh">Intermediate</label>
+    
+                            <input type="radio" name="exp" id="pro">
+                            <label for="pro">Advanced</label>
+                            </div>
+
+                            <div>
+                                <p>What would you like to learn?</p>
+                                <input type="checkbox" name="lesson" id="web">
+                                <label for="web">Web Design</label>
+
+                                <input type="checkbox" name="lesson" id="games">
+                                <label for="games">Games</label>
+
+                                <input type="checkbox" name="lesson" id="software">
+                                <label for="software">Software</label>
+
+                                <input type="checkbox" name="lesson" id="program">
+                                <label for="program">Programming</label>
+
+                                <input type="checkbox" name="lesson" id="other">
+                                <label for="other">Other</label>
+                            </div>
+                            <div>
+                                <p>Why did you want to join Coding4Cousins?</p>
+                                <textarea name="extra" id="extra">Enter here...</textarea>
+                            </div>
+                    </fieldset>
+                    <button type="submit">Sign Up!</button>
+            </form>
+    </section>
 </body>
 </html>

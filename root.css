@@ -10,6 +10,10 @@
     /* border: 1px dashed red; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Playfair Display', serif;
     width: 100%;
@@ -66,6 +70,14 @@ a:hover {
     font-weight: 900;
     font-size: 24px;
     font-family: 'Fjalla One', sans-serif;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.logo:hover {
+    background-color: #ff49ed51;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .first {

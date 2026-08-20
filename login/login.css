@@ -1,0 +1,53 @@
+* {
+    /* border: 1px red dotted; */
+}
+
+body {
+    margin: auto;
+}
+
+.one h1 {
+    font-size: 8vw;
+    text-align: center;
+    padding: 20px;
+    color: #ff00bf;
+    background-color: #2C052D;
+}
+
+fieldset {
+    padding: 20px;
+    border: #ff00bf 2px solid;
+    border-radius: 20px;
+}
+
+legend {
+    text-align: center;
+    color: #2C052D;
+    font-weight: 900;
+}
+
+.signin div {
+    margin: 30px;
+}
+
+button {
+    border: #da1172 solid 3px;
+    margin: 20px;
+    position: sticky;
+    bottom: 10px;
+}
+
+label {
+    color: #ff00bf;
+    background-color: #f67cdb38; 
+    padding: 2px;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 3px;
+    color: #da1172;
+    border: #2C052D solid 1px;
+}
+
